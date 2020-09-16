@@ -1,0 +1,65 @@
+.navbar{
+  margin: 0px;
+  border-radius: 0px;
+  position: fixed;
+  width: 100%;
+
+}
+.logo{
+  padding-top: 200px;
+  margin: auto;
+}
+
+.jumbotron{
+  background-image: url("images/jumbotronBackground.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 900px;
+}
+
+.header{
+  text-align: center;
+}
+.img-selfie{
+  width: 80%;
+  align-content: center;
+  margin-top: 100px;
+  margin-left: 40px;
+
+}
+.txt-aboutMe{
+  margin-top: 40px;
+
+}
+
+.txt-workexp{
+  text-align: left;
+}
+
+.table-head{
+text-align: center;
+align-content: center;
+margin: auto;
+}
+
+table{
+  background: #212529 !important;
+  color: white !important;
+  border: 2px solid black;
+
+}
+
+tr:nth-child(odd) {
+  background-color: #696969 !important;
+
+}
+
+.contact-header {
+  margin-top: 40px;
+  text-align: center;
+}
+.img-icon{
+  width: 100%;
+  margin-top: 20px;
+}
