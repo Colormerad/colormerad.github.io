@@ -1,8 +1,8 @@
 .navbar{
   margin: 0px;
   border-radius: 0px;
-  position: fixed;
   width: 100%;
+  display: block;
 
 }
 .logo{
@@ -11,11 +11,12 @@
 }
 
 .jumbotron{
-  background-image: url("images/jumbotronBackground.jpg");
+  background-image: url("../images/jumbotronBackground.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-size: 100% 100%;
   WIDTH: 100%;
+  height: auto;
 }
 
 .header{
@@ -47,6 +48,7 @@ table{
   background: #696969 !important;
   color: white !important;
   border: 2px solid black;
+  width: 90%;
 
 }
 
@@ -62,4 +64,8 @@ tr:nth-child(odd) {
 .img-icon{
   width: 100%;
   margin-top: 20px;
+}
+
+.img-hr{
+  margin: auto;
 }

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/portfolio.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse container-fluid navbar-expand-md">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="https://amandamaydoodle.com" target="_blank">Blog</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="active"><a href="develop.html">Development Projects</a></li>
+            <li><a href="doodle.html">Illustration</a></li>
+            <li><a href="paint.html">Mini Painting</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="main col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  <div class="main col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h1 id="grad1">AMANDA MAY</h1>
+    <img class="img-hr" src="images/break.png" alt="hr" id='breakpurple'/>
+
+    <h2>Dev Portfolio</h2>
+    <p></p>
+  </div>
+  <div class=" gallery col-lg-4 col-md-6 col-sm-12 col-xs-12">
+    <div class="content">
+      <h3>Flooring </h3>
+      <p class="desc">For this project the task was create a console based order management system utilyzing N-tier architechure and text files for data storage.  </p>
+      <div class="slideshow-container">
+        <div class="mySlides2">
+          <div class="numbertext"></div>
+          <img src="images/Flooring1.png" style="width:100%">
+          <div class="text">Main Menu</div>
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext"></div>
+          <img src="images/Flooring2.png" style="width:100%">
+          <div class="text">Adding an Order confirmation</div>
+        </div>
+        <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot2" onclick="currentSlide2(1)"></span>
+        <span class="dot2" onclick="currentSlide2(2)"></span>
+      </div>
+    </div>
+  </div>
+  <br />
+  <hr />
+  <!-- Second slideshow -->
+  <div class=" gallery col-lg-4 col-md-6 col-sm-12 col-xs-12">
+    <div class="content">
+      <h3>Vending Machine</h3>
+      <p class="desc">This project was a simulated vending machine set up to connect to web-api and generate dynamic html based on the received data. </p>
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="images/VendingMachine.png" style="width:100%">
+          <div class="text">Main vending machine page</div>
+        </div>
+        <div class="mySlides">
+          <div class="numbertext"></div>
+          <img src="images/VendingMachine2.png" style="width:100%">
+          <div class="text">Having added money &  made a purchase of #13</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
+    </div>
+  </div>
+  <br />
+  <hr />
+  <!-- third slideshow -->
+
+  <div class=" gallery col-lg-4 col-md-6 col-sm-12 col-xs-12">
+    <div class="content">
+      <h3>Car Dealership</h3>
+      <p class="desc"> An ASP .Net MVC application for a car dealership which utilyzes ASP .Net Identity for authentication, SQL server for data storage, and AJAX to connect the web API. </p>
+      <div class="slideshow-container">
+        <div class="mySlides3">
+          <div class="numbertext"></div>
+          <img src="images/GuildCars1.png" style="width:100%">
+          <div class="text">Welcome Page</div>
+        </div>
+        <div class="mySlides3">
+          <div class="numbertext"></div>
+          <img src="images/GuildCars2.png" style="width:100%">
+          <div class="text">Searching a vehicle</div>
+        </div>
+        <div class="mySlides3">
+          <div class="numbertext"></div>
+          <img src="images/GuildCars3.png" style="width:100%">
+          <div class="text">Sales accounts can place sales</div>
+        </div>
+        <div class="mySlides3">
+          <div class="numbertext"></div>
+          <img src="images/GuildCars4.png" style="width:100%">
+          <div class="text">Admin accounts can add/edit users, vehicles, etc. </div>
+        </div>
+        <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+      </div>
+      <br>
+      <div style="text-align:center">
+        <span class="dot3" onclick="currentSlide3(1)"></span>
+        <span class="dot3" onclick="currentSlide3(2)"></span>
+        <span class="dot3" onclick="currentSlide3(3)"></span>
+        <span class="dot3" onclick="currentSlide3(4)"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/portfolio.js"></script>
+</body>
+</html>
